@@ -32,11 +32,16 @@ FastAPI 기반의 AI 성격 분석 백엔드 서버입니다.
 ```
 APC_WAI/
 ├── main.py
+├── data/
+│   └── questions.py
 ├── services/
 │   └── ai_agent.py
+│   └── personality.py
+│   └── scoring.py
+├── models/
+│   └── survey.py
 ├── .env
 ├── .gitignore
-├── README.md
 ```
 
 ---
@@ -51,7 +56,7 @@ APC_WAI/
 
 ```json
 {
-  "answers": [1, 2, 3, 4, 5]
+  "answers": [1, 2, 3, 4, 5 ... ]
 }
 ```
 
